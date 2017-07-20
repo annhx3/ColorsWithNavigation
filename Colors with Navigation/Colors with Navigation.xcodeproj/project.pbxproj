@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5159A7E1F20552F00AF7CC6 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5159A7D1F20552F00AF7CC6 /* ColorDetailViewController.swift */; };
 		D59751251F20493B00FA23F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59751241F20493B00FA23F3 /* AppDelegate.swift */; };
 		D597512A1F20493B00FA23F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59751281F20493B00FA23F3 /* Main.storyboard */; };
 		D597512C1F20493B00FA23F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D597512B1F20493B00FA23F3 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D5159A7D1F20552F00AF7CC6 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 		D59751211F20493B00FA23F3 /* Colors with Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colors with Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59751241F20493B00FA23F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D59751291F20493B00FA23F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				D59751241F20493B00FA23F3 /* AppDelegate.swift */,
 				D59751521F2049B400FA23F3 /* ColorsViewController.swift */,
+				D5159A7D1F20552F00AF7CC6 /* ColorDetailViewController.swift */,
 				D59751281F20493B00FA23F3 /* Main.storyboard */,
 				D597512B1F20493B00FA23F3 /* Assets.xcassets */,
 				D597512D1F20493B00FA23F3 /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				D59751531F2049B400FA23F3 /* ColorsViewController.swift in Sources */,
 				D59751251F20493B00FA23F3 /* AppDelegate.swift in Sources */,
 				D59751551F204D0000FA23F3 /* Color.swift in Sources */,
+				D5159A7E1F20552F00AF7CC6 /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +524,7 @@
 				D597514B1F20493B00FA23F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D597514C1F20493B00FA23F3 /* Build configuration list for PBXNativeTarget "Colors with NavigationTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				D597514E1F20493B00FA23F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D597514F1F20493B00FA23F3 /* Build configuration list for PBXNativeTarget "Colors with NavigationUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				D59751511F20493B00FA23F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
